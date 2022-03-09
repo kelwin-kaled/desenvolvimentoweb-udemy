@@ -1,0 +1,49 @@
+
+body{
+    background-image: url('../imagens/fundo.png');
+    max-width: 1000px;
+    min-height: 650px;
+    margin: auto;
+}
+#hd nav{
+    background-color: #D4D3BE;
+    padding: 20px 0px 20px 0px;
+}
+nav span{
+    padding: 0px 10px 0px 10px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #717a8d;
+}
+nav a:hover{
+    color: #898c91a1 ;
+}
+#conteudo{
+    background-color: #FDFBED;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+h2{
+    color: #bcd398;
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+    background-color: #D4D3BE;
+    height: 30px;
+    padding-top: 15px;
+}
+div.cam{
+    text-align: center;
+}
+div.cam img{
+    border:2px solid #717a8d;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px black;
+    width: 60%;
+}
