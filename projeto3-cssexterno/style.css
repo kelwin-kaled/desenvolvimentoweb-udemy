@@ -39,7 +39,7 @@ main{
 }
 section.conteudo{
     background-color: white;
-    width: 55%;
+    width: 60%;
     text-align: justify;
     padding: 10px;
     margin: 5px;
@@ -50,7 +50,7 @@ section.conteudo{
     text-indent: 20px;
 }
 section.block{
-    width: 30%;
+    width: 25%;
     background-color: white;
     padding: 10px;
     margin: 5px;
