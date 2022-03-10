@@ -1,15 +1,78 @@
 body{
-    background-color: beige;
+    margin: 0px;
+    background: linear-gradient(to bottom, whitesmoke, rgba(128, 128, 128, 0.26));
+    min-width: 550px;
+
 }
-.conteudo{
-    background-color: aqua;
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
+header{
+    background-color: #FFC300;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.658);
+}
+header nav span{
+    margin: 0px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 5px;
+}
+header nav span:hover{
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.61);
+    border-radius: 3px;
+}
+
+header h1 span{
+    color: gray;
+}
+header nav span a{
+    color: white;
+    text-decoration: none;
+}
+span a:hover{
+    color: #FFC300;
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+section.conteudo{
+    background-color: white;
+    width: 55%;
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.521);
     float: left;
-    margin: 20px 20px;
 }
-p{
-    clear: left;
+.conteudo p{
     text-indent: 20px;
+}
+section.block{
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.521);
+    float: right;
+
+}
+section.block h3{
+    background-color: gray;
+    margin: 0px;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.521);
+}
+footer{
+    clear: both;
+    text-align: center;
+    background-color: #FFC300;
+    padding: 5px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
