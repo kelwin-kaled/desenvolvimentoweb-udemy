@@ -1,0 +1,19 @@
+
+main{
+    padding: 50px 100px;
+}
+ul li{
+    padding-bottom: 10px;
+}
+li.title{
+    color: #919496;
+    font-weight: bold;
+}
+#flink a{
+    text-decoration: none;
+    color: #919496;
+    margin-right: 10px;
+}
+#flink a:hover{
+    color: green;
+}

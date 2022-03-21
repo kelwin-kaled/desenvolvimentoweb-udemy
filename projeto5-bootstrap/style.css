@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 header{
     background-color: #FFBE0E;
 }
@@ -6,4 +9,7 @@ nav{
 }
 section#home{
     background-color: #FFBE0E;
+}
+.caixa{
+    padding: 60px 60px;
 }
