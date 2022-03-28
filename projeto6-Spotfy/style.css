@@ -1,7 +1,4 @@
 
-main{
-    padding: 50px 100px;
-}
 ul li{
     padding-bottom: 10px;
 }
@@ -16,4 +13,18 @@ li.title{
 }
 #flink a:hover{
     color: green;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: green;
+}
+.btn-custom{
+    border-radius: 30px;
+    background-color: rgb(53, 12, 92);
+}
+.btn-custom:hover{
+    transition: background 0.8s, color 0.8s;
 }
