@@ -9,9 +9,24 @@
     <title>Jogo mosca</title>
 </head>
 <body onresize="redimensiona()">
-    <script>
-        geramosquito()
-    </script>
+    <div class="painel">
+        <div class="pontos" id="resultado">
+            Pontos:0
+        </div>
+        <div id="tempos">
+            Tempo:60
+        </div>
+        <div>
+            Vidas:10
+        </div>
+        <div onclick="IniciaJogo()">
+            <button>Inicia Jogo</button>
+        </div>
+        <div>
+            <button onclick="EncerraJogo">Encerra</button>
+        </div>
+
+    </div>
     
 </body>
 </html>
